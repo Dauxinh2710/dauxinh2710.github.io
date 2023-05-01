@@ -22,9 +22,9 @@
 :root {
     --bg-color: #1e252f;
     --bg-color2: #323846;
-    --color: #f70dff;
+    --color: #41f2ff;
     --color2: #fff;
-    --shadow: 0 0 4px #f70dff;
+    --shadow: 0 0 4px #25f0ff;
 }
 
 a {
