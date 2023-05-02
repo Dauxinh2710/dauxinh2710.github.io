@@ -1,319 +1,54 @@
 <!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
 <html lang="en">
-     <!---mã source code by thanh tùng ios-->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipping Card UI Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="card front-face">
+          <header>
+            <span class="logo">
+              <img src="images/logo.png" alt="" />
+              <h5>Master Card</h5>
+            </span>
+            <img src="images/chip.png" alt="" class="chip" />
+          </header>
 
-    <!-- fav-icons-->
-    <link rel="icon" href="./img/F340311B-0CB1-4A11-A40F-77AF174CC664.png">
-    <!-- font font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- external css path -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./output.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Chủ Thanh Tùng iOS🐧</title>
-</head>
-
-<body>
-
-    <nav>
-        <div>
-            <h1>Thanh Tùng🐧</h1>
-        </div>
-        <div>
-            <ul class="nav-list">
-                <li> <a href="#">HOME</a> </li>
-                <li> <a href="#service">Dịch Vụ</a> </li>
-                <li> <a href="#about">Về Tôi</a> </li>
-                <li> <a href="#contect">Liên Hệ Tôi</a> </li>
-                <li> more <span> &#62 </span>
-                    <ul class="nav-inner-list">
-                        <li> <a href="#skills">Skills</a> </li>
-                        <li> <a href="#feadback">Feadback</a> </li>
-                        <li> <a href="#projects">Project</a> </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <header>
-        <div class="left-side">
-            <div class="content">
-                <p>Xin Chào.....!</p>
-                <h1>Tôi Là.... </h1>
-
-                <!-- animated Text -->
-                <div> Thanh <span style="text-transform: lowercase;"> Tùng🐧 </span> <span id="animated-inner-text"></span>
-                </div>
-
-                <div class="btns">
-                    <button type="button"> <a href="#contect">Đánh Giá  </a> </button>
-                    <button type="button"> <a href="#about"> Liên Hệ </a> </button>
-                </div>
-                <div class="icons-bar">
-                    <a href="https://www.facebook.com/179io.mtt/" target="_blank"> <i class="fa fa-facebook"></i> </a>
-                    <a href="https://t.me/T179_52Hz/" target="_blank"> <i class="fa fa-telegram"></i> </a>
-                    <a href="https://www.instagram.com/179io.mtt/" target="_blank"> <i class="fa fa-instagram"></i> </a>
-                </div>
+          <div class="card-details">
+            <div class="name-number">
+              <h6>Card Number</h6>
+              <h5 class="number">8050 2030 3020 5040</h5>
+              <h5 class="name">Prem Kumar Shahi</h5>
             </div>
-        </div>
 
-        <div class="right-side">
-            <div class="content">
-                <div class="svg">
-                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="240.000000pt" height="240.000000pt"
-                        viewBox="0 0 300 300" preserveAspectRatio="xMidYMid meet">
-                        <g transform="translate(0, 290) scale(0.100000,-0.100000)" fill="#f70dff" stroke="none">
-                            <path d="M1970 2870 c-149 -23 -174 -29 -381 -94 -187 -58 -426 -130 -499
-                        -150 -25 -7 -97 -31 -160 -54 -380 -134 -457 -176 -644 -350 -58 -54 -147
-                        -175 -180 -245 -68 -144 -91 -307 -62 -437 59 -259 184 -468 421 -705 343
-                        -344 778 -598 1170 -685 114 -25 225 -25 341 -1 236 50 370 161 547 453 61
-                        100 97 190 196 483 92 274 168 540 207 724 23 108 27 152 28 306 1 206 -11
-                        296 -54 399 -45 107 -114 185 -229 256 -53 34 -107 63 -121 66 -14 3 -35 10
-                        -48 15 -28 11 -173 26 -312 32 -71 3 -142 -1 -220 -13z" />
-                        </g>
-                    </svg>
-                    <img src="./img/F340311B-0CB1-4A11-A40F-77AF174CC664.png" alt="logo">
-                </div>
+            <div class="valid-date">
+              <h6>Valid Thru</h6>
+              <h5>05/28</h5>
             </div>
+          </div>
         </div>
-    </header>
 
-    <section id="about" class="secA">
-        <div class="intro">
-            <h1> Welecom To Thanh TùngiOS🐧</h1>
-            <div class="box">
-                <div class="logo">
-                    <div class="inner-logo">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="240" height="260"
-                            viewbox="0 0 390 390" style="filter: drop-shadow(0px 0px 6px #08fff3);">
-                            <path fill="none" stroke="#f70dff" stroke-width="10"
-                                d="M173.20508075688772 0L346.41016151377545 100L346.41016151377545 300L173.20508075688772 400L0 300L0 100Z">
-                            </path>
-                        </svg>
-
-                        <img src="./img/Thanhtung20cm.PNG" alt="logo">
-
-                        <div class="angle">
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-box">
-                    <h1>Chào !</h1>
-                    <p> #You 🐧</p>
-                    <p>
-                        Chào Mừng Bạn Đến Với Website Mai Thanh Tùng
-                        <br>
-                        I'm Very Passionate Information Technology . 
-                    </p>
-
-                    <button type="button"> <a href="#contect">Đánh Giá & </a>Liên Hệ Tôi </button>
-                </div>
-            </div>
+        <div class="card back-face">
+          <h6>
+            For customer service call +977 4343 3433 or email at
+            mastercard@gmail.com
+          </h6>
+          <span class="magnetic-strip"></span>
+          <div class="signature"><i>005</i></div>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+            maiores sed doloremque nesciunt neque beatae voluptatibus doloribus.
+            Libero et quis magni magnam nihil temporibus? Facere consectetur
+            dolore reiciendis et veniam.
+          </h5>
         </div>
+      </div>
     </section>
-
-    <section id="skills" class="secB">
-        <div class="content">
-            <h1> Bậc Ông Cố Nội 🐧 </h1>
-            <p>
-                <br>
-                
-            </p>
-            <div class="skills-box">
-                <div class="progress-box">
-                    <div class="progress prog-first">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">99%</div>
-                    </div>
-                    <div class="progress-text">Web Devlopment </div>
-                </div>
-
-                <div class="progress-box">
-                    <div class="progress prog-sec">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">95%</div>
-                    </div>
-                    <div class="progress-text">Game Devlopment </div>
-                </div>
-
-                <div class="progress-box">
-                    <div class="progress prog-third">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">75%</div>
-                    </div>
-                    <div class="progress-text">Apple Devlopment </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="service" class="secC">
-        <h1> Dịch Vụ 💎 </h1>
-        <div class="content">
-            <div class="box">
-                <i class="fa fa-code"></i>
-                <p> <span> Get UDID </span> by udid tech </p>
-                <p> Lấy UDID nhanh </p>
-                <a class=".text-danger bg-[#1f2937] rounded-3xl" href="https://udid.tech/static/configs/udid_tech.signed.mobileconfig" id="project-2">
-                <button type="button">Get UDID</button><a></a>
-            </div>
-
-            <div class="box">
-                <i class="fa fa-gamepad"></i>
-                <p> <span> Mua Chứng Chỉ </span> 1 năm </p>
-                <p>Bảo Hành 6 Tháng .</p>
-                <a class=".text-danger bg-[#1f2937] rounded-3xl" href="https://zalo.me/0369171709" id="project-2">
-                <button type="button"> Liên Hệ </button><a></a>
-            </div>
-
-            <div class="box">
-                <i class="fa fa-apple"></i>
-                <p> <span> IPA </span> iOS🐧 </p>
-                <p> Kho IPA Dành Cho iOS </p>
-                <a class=".text-danger bg-[#1f2937] rounded-3xl" href="https://thanhtung179ios.github.io" id="project-2">
-                <button type="button"> Tham Khảo </button><a></a>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="secD">
-        <h1> Oggy🍀 </h1>
-        <div class="switch">
-            <span>Mai</span>
-            <span>Thanh</span>
-            <span>Tùng🐧</span>
-        </div>
-        <p>
-            MTT❤️
-            <br>
-            Toi Yeu Em❤️
-        </p>
-        
-            <div class="rounded-t-3xl">
-                <img src="./img/Aovimg.PNG" alt="style Coffee">
-            </div>
-
-            <div class="rounded-t-3xl">
-                <img src="./img/github.png" alt="style Coffee"> 
-            </div>
-
-            <div class="rounded-t-3xl">
-                <img src="./img/hentaiz.png" alt="style Coffee">
-        </div>
-    </section>
-
-    <section id="contect" class="secE">
-        <h1>Thông Tin Về Tôi </h1>
-        <p>
-            Xin Chào ! Tôi Là Thanh Tùng . Mình Đến Từ Khu Du Lịch Phong Nha Kẻ Bàng Thành Phố Đồng Hới .
-        </p>
-        <h1>Liên Hệ Tôi</h1>
-        <p>
-            Click Vào Các Biểu Tượng Mạng Tương Ứng .
-        </p>
-
-        <div class="icon-box">
-            <a href="https://www.facebook.com/179io.mtt/" target="_blank"> <i class="fa fa-facebook"></i> </a>
-            <a href="https://t.me/T179_52Hz/" target="_blank"> <i class="fa fa-telegram"></i> </a>
-            <a href="https://www.instagram.com/179io.mtt/" target="_blank"> <i class="fa fa-instagram"></i> </a>            
-            </a>
-        </div>
-        <div class="whatsapp-icon"> Zalo <i class="fa fa-whatsapp"></i>
-            <span class="tooltips"> +84 369 171 709</span>
-        </div>
-        <div class="contect-box">
-            <div>
-                <p class="tast">Number Phone Me</p>
-                <p>
-                    <span> +84 369 171 709 </span>
-                    <span> +84 369 171 709 </span>
-                </p>
-            </div>
-
-            <div>
-                <p class="tast"> Email </p>
-                <p>Chivasregal73@icloud.com</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="feadback" class="secF">
-        <div class="stars">
-            <i id="3" class="fa fa-star-o"></i>
-            <i id="3" class="fa fa-star-o"></i>
-            <i id="3" class="fa fa-star-o"></i>
-            <i id="4" class="fa fa-star-o"></i>
-            <i id="5" class="fa fa-star-o"></i>
-        </div>
-        <p>Hi....!</p>
-    </section>
-
-    <footer>
-        <div class="logo">
-            <div>
-                <img src="img/F340311B-0CB1-4A11-A40F-77AF174CC664.png" alt="logo">
-            </div>
-            <div> Mai <span>Thanh Tùng❤️</span> </div>
-        </div>
-
-        <div class="container">
-            <div class="links">
-                <a href="#service"> <span></span> </a>
-                <a href="#about"> <span> </span> </a>
-                <a href="#contect"> <span> Contect Me❤️ </span> </a>
-            </div>
-
-            <div class="social-media">
-                <a href="https://www.facebook.com/179io.mtt/" target="_blank"> <i class="fa fa-facebook"></i> </a>
-                <a href="https://t.me/T179_52Hz/" target="_blank"> <i class="fa fa-telegram"></i> </a>
-                <a href="https://www.instagram.com/179io.mtt/" target="_blank"> <i class="fa fa-instagram"></i> </a>
-            </div>
-        </div>
-
-        <div class="copyright">
-             By <span> Thanh Tùng </span> | copyright © <span id="year"></span>
-        </div>
-    </footer>
-
-    <div class="scroll-top">
-        <i class="fa fa-angle-double-up"></i>
-    </div>
-
-
-
-
-    <!-- external js -->
-    <script src="D:\my_portfolio\animatedText.js"></script>
-    <script src="D:\my_portfolio\projectPart.js"></script>
-    <script src="D:\my_portfolio\feadback.js"></script>
-    <script src="D:\my_portfolio\copyright.js"></script>
-    <script src="D:\my_portfolio\scrollTop.js"></script>
-    <script src="D:\my_portfolio\scrollfunOnDocment.js"></script>
-</body>
-
+  </body>
 </html>
